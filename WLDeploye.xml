@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://org.jenkinsci.plugins/WeblogicDeploymentPlugin"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://org.jenkinsci.plugins/WeblogicDeploymentPlugin plugin-configuration.xsd"> 
+<weblogic-targets>
+    <weblogic-target>
+         <name>My Weblogic 12c</name>
+        <host>localhost</host>
+        <port>7001</port>
+        <login>weblogic</login>
+        <password>weblogic123</password>
+        <authMode>BY_LOGIN</authMode>
+		<!--<remoteDir>C:/WebLogic 10/user_projects/domains/base_domain/servers/AdminServer/upload</remoteDir> -->
+    </weblogic-target>
+</weblogic-targets>
+</config>
