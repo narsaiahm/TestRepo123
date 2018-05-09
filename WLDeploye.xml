@@ -4,7 +4,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://org.jenkinsci.plugins/WeblogicDeploymentPlugin plugin-configuration.xsd"> 
 <weblogic-targets>
     <weblogic-target>
-         <name>My Weblogic 12c</name>
+         <name>My Weblogic 12c</name>//commmetn
         <host>localhost</host>
         <port>7001</port>
         <login>weblogic</login>
@@ -14,3 +14,5 @@ xsi:schemaLocation="http://org.jenkinsci.plugins/WeblogicDeploymentPlugin plugin
     </weblogic-target>
 </weblogic-targets>
 </config>
+
+added new line of code 
